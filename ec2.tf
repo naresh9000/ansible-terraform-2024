@@ -1,6 +1,6 @@
 data "aws_ami" "my_ami" {
   most_recent = true
-  name_regex  = "^packer-ami.*"
+  name_regex  = "^ansible-controller.*"
   owners      = ["816827255260"]
 
 }
